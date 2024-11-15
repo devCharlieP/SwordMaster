@@ -2,6 +2,7 @@
 
 
 #include "SM_Character.h"
+#include "SM_Weapon.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Camera/CameraComponent.h"
 #include "Components/DecalComponent.h"
@@ -55,4 +56,17 @@ void ASM_Character::Tick(float DeltaTime)
 
 }
 
+void ASM_Character::BeginPlay()
+{
+	Super::BeginPlay();
 
+	FName WeaponSocket(TEXT("RightHandSocket"));
+
+	auto CurWeapon = GetWorld()->SpawnActor<ASM_Weapon>(FVector::ZeroVector, FRotator::ZeroRotator);
+
+	if(nullptr != CurWeapon)
+	{
+		CurWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, WeaponSocket);
+	}
+
+}
