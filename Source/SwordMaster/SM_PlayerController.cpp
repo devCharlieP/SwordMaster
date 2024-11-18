@@ -3,6 +3,7 @@
 
 #include "SM_PlayerController.h"
 #include "GameFramework/Pawn.h"
+#include "GameFramework/Character.h"
 #include "Blueprint/AIBlueprintHelperLibrary.h"
 #include "NiagaraSystem.h"
 #include "NiagaraFunctionLibrary.h"
@@ -10,6 +11,7 @@
 #include "Engine/World.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "SM_AnimInstance.h"
 
 ASM_PlayerController::ASM_PlayerController()
 {
@@ -45,6 +47,13 @@ void ASM_PlayerController::SetupInputComponent()
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ASM_PlayerController::OnSetDestinationTriggered);
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Completed, this, &ASM_PlayerController::OnSetDestinationReleased);
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Canceled, this, &ASM_PlayerController::OnSetDestinationReleased);
+
+		EnhancedInputComponent->BindAction(InputActionSkillQ, ETriggerEvent::Triggered, this, &ASM_PlayerController::PlaySkillQ);
+    	EnhancedInputComponent->BindAction(InputActionSkillW, ETriggerEvent::Triggered, this, &ASM_PlayerController::PlaySkillW);
+    	EnhancedInputComponent->BindAction(InputActionSkillE, ETriggerEvent::Triggered, this, &ASM_PlayerController::PlaySkillE);
+    	EnhancedInputComponent->BindAction(InputActionSkillR, ETriggerEvent::Triggered, this, &ASM_PlayerController::PlaySkillR);
+    	EnhancedInputComponent->BindAction(InputActionSkillD, ETriggerEvent::Triggered, this, &ASM_PlayerController::PlaySkillD);
+    	EnhancedInputComponent->BindAction(InputActionSkillF, ETriggerEvent::Triggered, this, &ASM_PlayerController::PlaySkillF);
 	}
 }
 
@@ -92,3 +101,51 @@ void ASM_PlayerController::OnSetDestinationReleased()
 
 	FollowTime = 0.f;
 }
+
+void ASM_PlayerController::PlaySkillByIndex(int32 SkillIndex)
+{
+    if (APawn* ControlledPawn = GetPawn())
+    {
+        if (ACharacter* ControlledCharacter = Cast<ACharacter>(ControlledPawn))
+        {
+            if (USM_AnimInstance* AnimInstance = Cast<USM_AnimInstance>(ControlledCharacter->GetMesh()->GetAnimInstance()))
+            {
+                UAnimMontage* SelectedMontage = nullptr;
+
+                switch (SkillIndex)
+                {
+                case 0:
+                    SelectedMontage = AnimInstance->SkillQMontage;
+                    break;
+                case 1:
+                    SelectedMontage = AnimInstance->SkillWMontage;
+                    break;
+                case 2:
+                    SelectedMontage = AnimInstance->SkillEMontage;
+                    break;
+                case 3:
+                    SelectedMontage = AnimInstance->SkillRMontage;
+                    break;
+                case 4:
+                    SelectedMontage = AnimInstance->SkillDMontage;
+                    break;
+                case 5:
+                    SelectedMontage = AnimInstance->SkillFMontage;
+                    break;
+                }
+
+                if (SelectedMontage)
+                {
+                    AnimInstance->PlaySkill(SelectedMontage);
+                }
+            }
+        }
+    }
+}
+
+void ASM_PlayerController::PlaySkillQ() { PlaySkillByIndex(0); }
+void ASM_PlayerController::PlaySkillW() { PlaySkillByIndex(1); }
+void ASM_PlayerController::PlaySkillE() { PlaySkillByIndex(2); }
+void ASM_PlayerController::PlaySkillR() { PlaySkillByIndex(3); }
+void ASM_PlayerController::PlaySkillD() { PlaySkillByIndex(4); }
+void ASM_PlayerController::PlaySkillF() { PlaySkillByIndex(5); }

@@ -49,9 +49,38 @@ protected:
 	void OnSetDestinationTriggered();
 	void OnSetDestinationReleased();
 
+	void PlaySkill(UAnimMontage* SkillMontage);
+
 private:
 	FVector CachedDestination;
 
 	float FollowTime; // For how long it has been pressed
+
+	void PlaySkillByIndex(int32 SkillIndex);
+
+	UPROPERTY(EditAnywhere, Category = "Input")
+    TObjectPtr<class UInputAction> InputActionSkillQ;
+
+    UPROPERTY(EditAnywhere, Category = "Input")
+    TObjectPtr<class UInputAction> InputActionSkillW;
+
+    UPROPERTY(EditAnywhere, Category = "Input")
+    TObjectPtr<class UInputAction> InputActionSkillE;
+
+    UPROPERTY(EditAnywhere, Category = "Input")
+    TObjectPtr<class UInputAction> InputActionSkillR;
+
+    UPROPERTY(EditAnywhere, Category = "Input")
+    TObjectPtr<class UInputAction> InputActionSkillD;
+
+    UPROPERTY(EditAnywhere, Category = "Input")
+    TObjectPtr<class UInputAction> InputActionSkillF;
+
+    void PlaySkillQ();
+    void PlaySkillW();
+    void PlaySkillE();
+    void PlaySkillR();
+    void PlaySkillD();
+    void PlaySkillF();
 
 };
