@@ -2,7 +2,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_AnimInstance.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -10,7 +10,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_AnimInstance.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -18,7 +18,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_Character.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -26,7 +26,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_Character.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -34,7 +34,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_GameMode.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -42,7 +42,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_GameMode.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -50,7 +50,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_PlayerController.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -58,7 +58,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_PlayerController.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -66,7 +66,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_Weapon.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -74,7 +74,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SM_Weapon.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -82,7 +82,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SwordMaster.Build.cs",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -90,7 +90,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SwordMaster.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
@@ -98,7 +98,7 @@
 	{
 		"file": "D:\\UE5CPP\\SwordMaster\\Source\\SwordMaster\\SwordMaster.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\UE5CPP\\SwordMaster\\.vscode\\compileCommands_SwordMaster\\SwordMaster.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
